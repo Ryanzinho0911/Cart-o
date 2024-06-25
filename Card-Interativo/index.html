@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="Function.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Frontend Mentor | Interactive card details form</title>
+    </head>
+    <body>
+    <img class="card-front" src="./images/bg-card-front.png" alt="Front">
+    <img class="card-back" src="./images/bg-card-back.png" alt="Back">
+
+    <div class="formulario">
+        <!-- Nome do cartão -->
+        <div class="nomeCartao">
+            <label for="inputText">Nome do Cartão</label>
+            <input type="text" id="inputText" class="form-control" oninput="updateText()" placeholder="e.g. Jane Appleseed">
+        </div>
+        <div class="id-nome" id="outputText">Jane Appleseed</div>
+
+        <!-- Número do cartão -->
+        <div class="numeroCartao">
+            <label for="inputText1">Número do Cartão</label>
+            <input type="text" id="inputText1" class="form-control" oninput="updateText1()" placeholder="0000 0000 0000 0000" maxlength="19">
+        </div>
+        <div class="id-cartao" id="outputText1">0000 0000 0000 0000</div>
+
+        <!-- Validade -->
+        <div class="Validade-dia">
+            <label for="inputText2">Exp. Date (MM/YY)</label>
+            <input type="text" id="inputText2" class="form-control1" oninput="updateText2()" placeholder="MM" maxlength="2">
+        </div>
+        <div class="id-dia" id="outputText2">00</div>
+        <p5>/</p5>
+        <div class="Validade-ano">
+            <label for="inputText3"></label>
+            <input type="text" id="inputText3" class="form-control1" oninput="updateText3()" placeholder="YY" maxlength="2">
+        </div>
+        <div class="id-ano" id="outputText3">00</div>
+
+        <!-- CVV -->
+        <div class="cvv">
+            <label for="inputText4">CVC</label>
+            <input type="text" id="inputText4" class="form-control2" oninput="updateText4()" placeholder="000" maxlength="3">
+        </div>
+        <div class="id-cvv" id="outputText4">000</div>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="confirmarCadastro()">Confirmar</button>
+    <p id="erro"></p>
+
+    <div class="confirmacao" id="confirmacao">
+        <h3>Obrigado!</h3>
+        <br>
+        <h5>Cartão cadastrado com sucesso!</h5>
+    </div>
+    
+    <div id="infoCartao"></div>
+<footer>
+    <div class="container">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/eduardo-ryan-0b4805212/">Your Name Here</a>.
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    background-image: url('./images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 550px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Space Grotesk;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35pc;
+}
+
+.card-front {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    width: 400px;
+}
+
+.card-back {
+    position: absolute;
+    top: 455px;
+    left: 310px;
+    width: 400px;
+}
+
+.id-nome {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 233px;
+    font-size: 15px;
+}
+
+.nomeCartao {
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+p5{
+    margin-top: 20px;
+        color: white;
+        padding: 10px;
+        min-height: 50px;
+        position: absolute;
+        top: 340px;
+        left: 540px;
+        font-size: 15px;
+}
+input {
+    border-radius: 5px;
+    width: 20pc;
+    height: 50px;
+}
+
+.numeroCartao {
+    margin: 20px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.id-cartao {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 270px;
+    left: 230px;
+    font-size: 28px;
+}
+
+.id-cvv {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 521px;
+    left: 620px;
+    font-size: 15px;
+}
+
+.id-dia {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 520px;
+    font-size: 15px;
+}
+
+
+
+.id-ano {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 547px;
+    font-size: 15px;
+}
+
+label {
+    font-size: 15px;
+    color: hsl(278, 94%, 30%);
+}
+
+.Validade-dia {
+    margin: 20px;
+    position: absolute;
+    top: 430px;
+    right: 300px;
+}
+
+.Validade-ano {
+    margin: 20px;
+    position: absolute;
+    top: 430px;
+    right: 200px;
+}
+
+.cvv {
+    margin: 20px;
+    position: absolute;
+    top: 430px;
+    right: 90px;
+}
+
+button {
+    margin: 20px;
+    position: absolute;
+    top: 550px;
+    right: 150px;
+    width: 378px;
+    height: 50px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.confirmacao {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 300px;
+    right: 230px;
+}
+
+.confirmacao h5 {
+    font-size: 15px;
+}
+
+.confirmacao h3 {
+    margin: 10px 0;
+}
+
+#infoCartao p {
+    margin: 5px 0;
+}
+
+#infoCartao p1 {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 233px;
+    font-size: 15px;   
+}
+
+#infoCartao p2 {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 270px;
+    left: 230px;
+    font-size: 28px;  
+}
+
+#infoCartao p3 {
+        margin-top: 20px;
+        color: white;
+        padding: 10px;
+        min-height: 50px;
+        position: absolute;
+        top: 340px;
+        left: 520px;
+        font-size: 15px;
+    
+    
+        margin-top: 20px;
+        color: white;
+        padding: 10px;
+        min-height: 50px;
+        position: absolute;
+        top: 340px;
+        left: 547px;
+        font-size: 15px;
+    
+}
+
+#infoCartao p4 {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    position: absolute;
+    top: 521px;
+    left: 620px;
+    font-size: 15px;
+}
+
+#erro {
+    color: red;
+    position: absolute;
+    top: 630px;
+    right: 328px;
+    font-size: 12px;
+    
+}
+
+.container{
+    font-size: 10px;
+    padding-left: 580px;
+    position: absolute;
+    top: 870px;
+    
+}
